@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe699" />
+      <stop offset="100%" stop-color="#d4af37" />
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="380" height="100" rx="4" fill="#181c20" stroke="#373d44" stroke-width="1.5" />
+  <!-- Halo Circular Logo like on the building -->
+  <g transform="translate(30, 24)">
+    <circle cx="32" cy="36" r="28" fill="none" stroke="url(#goldGlow)" stroke-width="2.5" />
+    <text x="32" y="32" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="9" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1.5">ONE</text>
+    <text x="32" y="44" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="9" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1.5">RIDE</text>
+  </g>
+  <text x="95" y="52" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="20" font-weight="800" fill="#ffffff" letter-spacing="3">ONE RIDE</text>
+  <text x="95" y="74" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="13" font-weight="600" fill="url(#goldGlow)" letter-spacing="4">COMMERCIAL PLAZA</text>
+  <line x1="95" y1="84" x2="360" y2="84" stroke="#323840" stroke-width="1" />
+  <text x="95" y="98" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="9" font-weight="500" fill="#8d95a0" letter-spacing="2">MODERN BUILD-TO-SUIT FACILITY</text>
+</svg>

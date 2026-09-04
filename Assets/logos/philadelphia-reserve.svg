@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldPhila" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2c884" />
+      <stop offset="100%" stop-color="#b68c43" />
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="380" height="100" rx="4" fill="#181c20" stroke="#373d44" stroke-width="1.5" />
+  <!-- Land / Boundary geometric pin -->
+  <g transform="translate(30, 24)">
+    <polygon points="32,12 52,26 44,52 20,52 12,26" fill="none" stroke="url(#goldPhila)" stroke-width="2" />
+    <circle cx="32" cy="34" r="4" fill="#ffffff" />
+  </g>
+  <text x="95" y="52" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="19" font-weight="800" fill="#ffffff" letter-spacing="2.5">PHILADELPHIA</text>
+  <text x="95" y="74" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="13" font-weight="600" fill="url(#goldPhila)" letter-spacing="4">COMMERCIAL RESERVE</text>
+  <line x1="95" y1="84" x2="360" y2="84" stroke="#323840" stroke-width="1" />
+  <text x="95" y="98" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="9" font-weight="500" fill="#8d95a0" letter-spacing="2">PRIME ARTERIAL GROUND LEASE</text>
+</svg>

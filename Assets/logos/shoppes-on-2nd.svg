@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gold2nd" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2c884" />
+      <stop offset="100%" stop-color="#b68c43" />
+    </linearGradient>
+  </defs>
+  <!-- Framing Border -->
+  <rect x="10" y="10" width="380" height="100" rx="4" fill="#181c20" stroke="#373d44" stroke-width="1.5" />
+  <!-- Architectural Mark -->
+  <g transform="translate(30, 26)">
+    <!-- Stylized Roman numeral II with roofline -->
+    <path d="M5 55 L25 15 L45 55 Z" fill="none" stroke="url(#gold2nd)" stroke-width="2" />
+    <line x1="20" y1="28" x2="20" y2="52" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" />
+    <line x1="30" y1="28" x2="30" y2="52" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" />
+    <line x1="12" y1="26" x2="38" y2="26" stroke="url(#gold2nd)" stroke-width="2" stroke-linecap="round" />
+    <line x1="12" y1="54" x2="38" y2="54" stroke="url(#gold2nd)" stroke-width="2" stroke-linecap="round" />
+  </g>
+  <!-- Typography -->
+  <text x="95" y="52" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="20" font-weight="800" fill="#ffffff" letter-spacing="3">SHOPPES</text>
+  <text x="95" y="74" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="14" font-weight="600" fill="url(#gold2nd)" letter-spacing="5">ON 2ND</text>
+  <line x1="95" y1="84" x2="360" y2="84" stroke="#323840" stroke-width="1" />
+  <text x="95" y="98" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="9" font-weight="500" fill="#8d95a0" letter-spacing="2">DOWNTOWN CORRIDOR • RETAIL</text>
+</svg>
