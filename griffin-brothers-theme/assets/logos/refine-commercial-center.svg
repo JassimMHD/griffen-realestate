@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="timberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b47b4b" />
+      <stop offset="50%" stop-color="#cf9463" />
+      <stop offset="100%" stop-color="#a06739" />
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="380" height="100" rx="4" fill="#181c20" stroke="#373d44" stroke-width="1.5" />
+  <!-- Architectural Wood Slat Icon -->
+  <g transform="translate(28, 30)">
+    <rect x="5" y="6" width="50" height="7" rx="1.5" fill="url(#timberGrad)" />
+    <rect x="5" y="18" width="50" height="7" rx="1.5" fill="url(#timberGrad)" />
+    <rect x="5" y="30" width="50" height="7" rx="1.5" fill="url(#timberGrad)" />
+    <rect x="5" y="42" width="50" height="7" rx="1.5" fill="url(#timberGrad)" />
+  </g>
+  <text x="95" y="52" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="21" font-weight="800" fill="#ffffff" letter-spacing="4">REFINE</text>
+  <text x="95" y="74" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="12" font-weight="600" fill="#cf9463" letter-spacing="4">COMMERCIAL CENTER</text>
+  <line x1="95" y1="84" x2="360" y2="84" stroke="#323840" stroke-width="1" />
+  <text x="95" y="98" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="9" font-weight="500" fill="#8d95a0" letter-spacing="2">HOME STORE • DESIGN • BOUTIQUES</text>
+</svg>

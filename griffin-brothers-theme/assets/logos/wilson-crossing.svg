@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldWilson" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0d599" />
+      <stop offset="100%" stop-color="#c59b4e" />
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="380" height="100" rx="4" fill="#181c20" stroke="#373d44" stroke-width="1.5" />
+  <!-- Crossing / Compass / X Geometric emblem -->
+  <g transform="translate(30, 26)">
+    <circle cx="32" cy="34" r="24" fill="none" stroke="#2c333a" stroke-width="1.5" />
+    <path d="M18 20 L46 48 M46 20 L18 48" stroke="url(#goldWilson)" stroke-width="3" stroke-linecap="round" />
+    <circle cx="32" cy="34" r="5" fill="#ffffff" />
+  </g>
+  <text x="95" y="52" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="20" font-weight="800" fill="#ffffff" letter-spacing="3">WILSON</text>
+  <text x="95" y="74" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="14" font-weight="600" fill="url(#goldWilson)" letter-spacing="5">CROSSING</text>
+  <line x1="95" y1="84" x2="360" y2="84" stroke="#323840" stroke-width="1" />
+  <text x="95" y="98" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="9" font-weight="500" fill="#8d95a0" letter-spacing="2">COMMERCIAL & RETAIL CENTER</text>
+</svg>
