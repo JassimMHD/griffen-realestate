@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery & Portfolio | Griffin Brothers Properties</title>
+  <meta name="description" content="Explore photos of our commercial properties, architectural build-to-suit projects, and business memories across The Shoals, Alabama.">
+  <link rel="icon" type="image/png" href="Assets/griffin_crest_transparent.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Header & Top Navigation
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo-link" id="navBrandLogo" aria-label="Griffin Brothers Properties Home">
+        <img src="Assets/Griffin Brothers new logo.jpg" alt="Griffin Brothers Properties Logo" class="brand-logo-img">
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html#hero" class="nav-link">Home</a></li>
+        <li><a href="index.html#divisions" class="nav-link">Divisions</a></li>
+        <li><a href="index.html#locations" class="nav-link">Property Locations</a></li>
+        <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+        <li><a href="index.html#about" class="nav-link">About</a></li>
+        <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="header-cta-group">
+        <a href="tel:+12567600000" class="header-phone-link" title="Call Griffin Brothers">
+          <svg viewBox="0 0 24 24">
+            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+          </svg>
+          <span>(256) 760-7000</span>
+        </a>
+        <a href="index.html#contact" class="btn-primary">Inquire Space</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="wood-slat-divider" style="margin-top: 84px;"></div>
+
+  <main>
+    <!-- Gallery Hero -->
+    <section class="gallery-hero">
+      <div class="container">
+        <span class="section-eyebrow">OUR WORK & HERITAGE</span>
+        <div class="wood-slat-accent-strip" style="margin: 0 auto 16px auto;"></div>
+        <h1 class="section-title">Property Portfolio & Memories</h1>
+        <p class="section-description" style="max-width: 650px; margin: 0 auto;">
+          A visual record of commercial properties, architectural craftsmanship, wood-panel design details, and long-standing business roots in The Shoals.
+        </p>
+
+        <!-- Category Filter Buttons -->
+        <div class="gallery-filters">
+          <button class="filter-btn active" data-filter="all">All Photos</button>
+          <button class="filter-btn" data-filter="retail">Retail & Commercial</button>
+          <button class="filter-btn" data-filter="flex">Flex & Industrial</button>
+          <button class="filter-btn" data-filter="build">Build to Suit</button>
+          <button class="filter-btn" data-filter="residential">Residential</button>
+          <button class="filter-btn" data-filter="heritage">Heritage & Memories</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Grid Section -->
+    <section class="container">
+      <div class="gallery-grid" id="galleryGrid">
+
+        <!-- Item 1: Refine Center -->
+        <div class="gallery-item" data-category="retail" data-lightbox data-src="Assets/Retail .jpg" data-caption="Refine Commercial Center — Modern Retail Storefront with Horizontal Wood Slats">
+          <img src="Assets/Retail .jpg" alt="Refine Commercial Center">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Retail</span>
+            <div class="gallery-item-title">Refine Commercial Center</div>
+          </div>
+        </div>
+
+        <!-- Item 2: Hero Building -->
+        <div class="gallery-item" data-category="retail" data-lightbox data-src="Assets/Hero Page  top photo.jpeg" data-caption="Refine Home Store + Design — Exterior Facade & Landscaping">
+          <img src="Assets/Hero Page  top photo.jpeg" alt="Refine Home Store + Design Facade">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Retail & Architecture</span>
+            <div class="gallery-item-title">Refine Home Store Facade</div>
+          </div>
+        </div>
+
+        <!-- Item 3: Build to Suit (One Ride) -->
+        <div class="gallery-item" data-category="build" data-lightbox data-src="Assets/Build to Suit.PNG" data-caption="One Ride Facility — Custom Build to Suit with Timber Slat Accent & Halo Signage">
+          <img src="Assets/Build to Suit.PNG" alt="One Ride Facility">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Build to Suit</span>
+            <div class="gallery-item-title">One Ride Custom Facility</div>
+          </div>
+        </div>
+
+        <!-- Item 4: Flex Commercial Complex -->
+        <div class="gallery-item" data-category="flex" data-lightbox data-src="Assets/Flex space.jpeg" data-caption="Flex Commercial Park — Drive-In Overhead Bays & Air-Conditioned Offices">
+          <img src="Assets/Flex space.jpeg" alt="Flex Space Warehouse & Office">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Flex & Industrial</span>
+            <div class="gallery-item-title">Flex Commercial Bays & Offices</div>
+          </div>
+        </div>
+
+        <!-- Item 5: Residential Development -->
+        <div class="gallery-item" data-category="residential" data-lightbox data-src="Assets/Residential.jpg" data-caption="Residential Neighborhood — North Alabama Craftsman Community Development">
+          <img src="Assets/Residential.jpg" alt="Residential Neighborhood Development">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Residential</span>
+            <div class="gallery-item-title">Shoals Craftsman Community</div>
+          </div>
+        </div>
+
+        <!-- Item 6: Land Leases Aerial -->
+        <div class="gallery-item" data-category="retail" data-lightbox data-src="Assets/Land Leases.jpeg" data-caption="Philadelphia Avenue Commercial Land Parcel — Aerial Ground Lease Tract">
+          <img src="Assets/Land Leases.jpeg" alt="Philadelphia Avenue Land Parcel">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Commercial Land</span>
+            <div class="gallery-item-title">Philadelphia Avenue Tract</div>
+          </div>
+        </div>
+
+        <!-- Item 7: Jeff & Lynn Heritage Illustration -->
+        <div class="gallery-item" data-category="heritage" data-lightbox data-src="Assets/jeff_lynn_portrait.jpg" data-caption="Jeff & Lynn Griffin — Built on Faith, Family & Integrity">
+          <img src="Assets/jeff_lynn_portrait.jpg" alt="Jeff and Lynn Griffin Portrait">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Heritage & Founders</span>
+            <div class="gallery-item-title">Jeff & Lynn Griffin</div>
+          </div>
+        </div>
+
+        <!-- Item 8: Artistic Heritage Sheet -->
+        <div class="gallery-item" data-category="heritage" data-lightbox data-src="Assets/Jeff and Lynn clean digital ink illustration art.jpg" data-caption="Original Line & Ink Digital Illustration Study — Griffin Brothers Properties">
+          <img src="Assets/Jeff and Lynn clean digital ink illustration art.jpg" alt="Illustration Art Study">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Business History</span>
+            <div class="gallery-item-title">Digital Ink Art Archival Study</div>
+          </div>
+        </div>
+
+        <!-- Item 9: Griffin Crest Brand Symbol -->
+        <div class="gallery-item" data-category="heritage" data-lightbox data-src="Assets/Griffin Brothers new logo.jpg" data-caption="Griffin Brothers Properties Official Brand Identity with Golden Griffin Crest">
+          <img src="Assets/Griffin Brothers new logo.jpg" alt="Griffin Brothers Official Crest Logo">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Brand Identity</span>
+            <div class="gallery-item-title">The Griffin Crest & Seal</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal" id="lightboxModal">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close Lightbox">&times;</button>
+      <img src="" alt="" class="lightbox-img" id="lightboxImg">
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <div class="wood-slat-divider"></div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand-summary">
+          <img src="Assets/Griffin Brothers new logo.jpg" alt="Griffin Brothers Properties" style="height: 48px; width: auto; margin-bottom: 12px;">
+          <p>
+            Family-owned commercial real estate ownership and development proudly rooted in The Shoals, Alabama.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html#hero">Home</a></li>
+            <li><a href="index.html#divisions">Our Divisions</a></li>
+            <li><a href="index.html#locations">Property Locations</a></li>
+            <li><a href="gallery.html">Gallery & Archives</a></li>
+            <li><a href="index.html#about">About Jeff & Lynn</a></li>
+            <li><a href="index.html#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Divisions</h4>
+          <ul class="footer-links">
+            <li><a href="index.html#divisions">Retail Spaces</a></li>
+            <li><a href="index.html#divisions">Flex Warehouse</a></li>
+            <li><a href="index.html#divisions">Land Leases</a></li>
+            <li><a href="index.html#divisions">Build to Suit</a></li>
+            <li><a href="index.html#divisions">Residential</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Our Shoals Commitment</h4>
+          <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 14px;">
+            "Build carefully, own for the long term, and treat every property and tenant like it matters."
+          </p>
+          <span style="font-size: 0.8rem; color: var(--gold-primary); font-weight: 600;">BUILT ON FAITH, FAMILY & INTEGRITY</span>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Griffin Brothers Properties. All Rights Reserved. Florence & Muscle Shoals, AL.
+        </div>
+        <div>
+          <a href="index.html">Back to Main Website</a> &bull; <a href="index.html#contact">Inquire on Properties</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
